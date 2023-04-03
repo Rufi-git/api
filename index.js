@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express();
-app.listen(4000, ()=>{
+app.listen("https://backend-rufi-git.vercel.app/", ()=>{
     console.log("I am in port 4000")
 })
 
